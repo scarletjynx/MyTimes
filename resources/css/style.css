@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  color: mediumaquamarine;
+}
+
+.logo span {
+  margin-left: 15px;
+}
+
+nav {
+  padding-right: 30px;
+}
+
+nav li {
+  display: inline-block;
+  padding: 20px 10px;
+
+}
