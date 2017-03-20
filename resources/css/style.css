@@ -6,6 +6,7 @@
   font-size: 14px;
   font-weight: bold;
   border-bottom: 1px solid black;
+  margin-bottom: 20px;
 }
 
 .logo {
@@ -30,27 +31,73 @@ nav li {
 }
 
 .content {
+  width: 100%;
   display: inline-flex;
-  border: 1px solid black;
+  justify-content: space-between;
+  align-content: space-between;
 }
 
 .column {
   display: flex;
+  align-content: space-between;
   flex-direction: column;
 }
 
-div {
+/*div {
   border: 1px solid black;
-}
+}*/
 
-.column .large {
+.large {
   width: 630px;
+  margin-right: 25px;
+  display: inline-flex;
+
 }
 
-.column .medium {
+.medium {
   width: 300px;
+  margin-right: 25px;
 }
 
-.column .small {
+.small {
   width: 240px;
+}
+
+.image {
+  display: flex;
+}
+
+.mainstory .image {
+  background-image: url(../images/img-story-main.png);
+}
+
+.backwards {
+  background-image: url(../images/img-story-2.png);
+}
+
+.camera {
+  background-image: url(../images/img-story-3.png);
+}
+
+.cats {
+  background-image: url(../images/img-story-1.png);
+}
+
+.image h2 {
+  font-family: Georgia, serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.mainstory h2 {
+  font-size: 40px;
+}
+
+.stories {
+  display: flex;
+  flex-direction: row;
+}
+
+.story-col {
 }
