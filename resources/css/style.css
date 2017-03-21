@@ -40,6 +40,7 @@ Begin Content Section */
   display: inline-flex;
   justify-content: space-between;
   align-content: space-between;
+  margin-bottom: 100px;
 }
 
 .column {
@@ -54,8 +55,10 @@ Begin Content Section */
   display: inline-flex;
 }
 
-.mainstory h2 {
+.mainstory .image h2 {
   font-size: 40px;
+  text-align: left;
+  padding-left: 10px;
 }
 
 /* Bottom section of large column */
@@ -126,6 +129,7 @@ Begin Content Section */
   font-weight: bold;
   font-size: 30px;
   color: white;
+  text-align: center;
 }
 
 /* End Content Section
