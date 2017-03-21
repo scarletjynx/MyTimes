@@ -1,3 +1,5 @@
+/* Begin Header Section */
+
 .header {
   display: flex;
   align-items: center;
@@ -30,6 +32,9 @@ nav li {
 
 }
 
+/* End Header Section
+Begin Content Section */
+
 .content {
   width: 100%;
   display: inline-flex;
@@ -43,16 +48,29 @@ nav li {
   flex-direction: column;
 }
 
-/*div {
-  border: 1px solid black;
-}*/
-
 .large {
   width: 630px;
   margin-right: 25px;
   display: inline-flex;
 
 }
+
+.mainstory h2 {
+  font-size: 40px;
+}
+
+/* Bottom section of large column */
+
+.stories {
+  display: flex;
+  flex-direction: row;
+}
+
+.stories :first-child {
+  margin-right: 30px;
+}
+
+/* Other columns */
 
 .medium {
   width: 300px;
@@ -61,7 +79,27 @@ nav li {
 
 .small {
   width: 240px;
+  display: flex;
+  flex-direction: column;
 }
+
+.small h3 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.small .story div {
+  background-color: whitesmoke;
+  padding: 10px;
+  padding-left: 20px;
+  border-bottom: 1px solid black;
+  font-family: Verdana, sans-serif;
+  font-size: 12px;
+  color: dimgray;
+}
+
+/* Images with text overlays for Content Section */
 
 .image {
   display: flex;
@@ -88,16 +126,4 @@ nav li {
   font-weight: bold;
   font-size: 30px;
   color: white;
-}
-
-.mainstory h2 {
-  font-size: 40px;
-}
-
-.stories {
-  display: flex;
-  flex-direction: row;
-}
-
-.story-col {
 }
