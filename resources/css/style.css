@@ -52,7 +52,6 @@ Begin Content Section */
   width: 630px;
   margin-right: 25px;
   display: inline-flex;
-
 }
 
 .mainstory h2 {
@@ -67,7 +66,7 @@ Begin Content Section */
 }
 
 .stories :first-child {
-  margin-right: 30px;
+  margin-right: 25px;
 }
 
 /* Other columns */
@@ -103,6 +102,7 @@ Begin Content Section */
 
 .image {
   display: flex;
+  height: 300px;
 }
 
 .mainstory .image {
@@ -126,4 +126,31 @@ Begin Content Section */
   font-weight: bold;
   font-size: 30px;
   color: white;
+}
+
+/* End Content Section
+Begin Footer Section */
+
+footer {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: mediumaquamarine;
+  margin: auto;
+  font-family: Verdana, sans-serif;
+  font-size: 12px;
+}
+
+footer span {
+  font-family: Georgia, serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 30px;
+}
+
+footer li {
+  display: inline-block;
 }
